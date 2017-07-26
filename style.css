@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "pokemon-font";
+    src: url("../fonts/pokemon-font-1.8.1/fonts/pokemon-font.eot");
+}
+
+body {
+  background-color: #F2EFEA;
+  font-size: 12px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  font-family: 'pokemon-font', monospace;
+  color: rgba(0,0,0, 0.8);
+  line-height: 18px
+}
+
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 20px;
+  color: #F36D61;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h3 {
+  font-size: : 14px;
+}
+
+a {
+  color: rgba(0, 0, 25, 0.3);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F36D61;
+  text-decoration: underline;
+}
+
+.fa-twitter, .fa-linkedin, .fa-github{
+  color: #F36D61;
+  font-size: 14px;
+}
+
+.container {
+  width: 500px;
+  margin: 30px auto 30px auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2)
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-left: 0;
+}
+
+.img-movies {
+  opacity: 1;
+}
+
+.img-movies:hover {
+  opacity: 0.8;
+}
+
+.btn-red {
+  background-color: #F36D61;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 50px;
+}
+
+.btn-red:hover {
+  opacity: 0.8;
+  color: white;
+  text-decoration: none;
+}
+
+table {
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: small;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    font-variant: normal normal;
+}
+
+#movies {
+    font-weight: 300;
+    line-height: 1.6em;
+}
+
+#movies img {
+    width: 120px;
+}
+
+#movies td {
+    padding: 10px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+#movies p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    text-align: justify;
+}
+
+p {
+  padding-bottom: 10px;
+}
